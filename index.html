@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1><i>KABADDI SCOREBOARD</i></h1>
+    <div class="container">
+      <div>
+        <h3>KMEA </h3>
+        <h1 id="count1">0</h1>
+        <div id="score1">
+          <button class="one"onclick="one()">+1</button>
+          <button class="two" onclick="two()">+2</button>
+          <button class="three" onclick="three()">+3</button>
+          <button class="minus" onclick="minus()">-1</button>
+        </div>
+      </div>
+      <div>
+        <h3>TEAM-B</h3>
+        <h1 id="count2">0</h1>
+        <div id="score2">
+          <button class="one" onclick="one1()">+1</button>
+          <button class="two" onclick="two2()">+2</button>
+          <button class="three" onclick="three3()">+3</button>
+          <button class="minus" onclick="minus1()">-1</button>
+        </div>
+      </div>
+    </div>
+    <div class="newge">
+      <button class="game-btn" onclick="game()">New Game</button>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

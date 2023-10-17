@@ -1,0 +1,122 @@
+@font-face {
+    font-family: counter;
+    src: url(digital-7.regular.ttf);
+}
+
+body{
+  background: #2a2828;
+}
+
+h1{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  color: #ff0000;
+}
+
+h3{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  color: aliceblue;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.newge{
+  font-family: 'Libre Baskerville', serif;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.game-btn{
+  border: 5px solid #00ff00;
+  padding: 15px;
+}
+
+#score1{
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-style: normal;
+}
+
+.one{
+  border: 3px solid #00ff00;
+  font-family: 'counter';
+  width: 30px;
+  height: 28px;
+  font-style: bold;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.two{
+  border: 3px solid #00ff00;
+  font-family: 'counter';
+  width: 30px;
+  height: 28px;
+  font-style: bold;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.three{
+  border: 3px solid #00ff00;
+  font-family: 'counter';
+  width: 30px;
+  height: 28px;
+  font-style: bold;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.minus{
+  border: 3px solid #ff0000;
+  font-family: 'counter';
+  width: 30px;
+  height: 28px;
+  font-style: bold;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+#score2{
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: counter;
+}
+
+#count1{
+  margin-top: 21px;
+  margin-bottom: 0px;
+  background: black;
+  font-family: 'counter';
+  color: red;
+  text-align: center;
+  width: 350px;
+  height: 80%;
+  font-size: 300px;
+  border-radius: 10px;
+}
+
+#count2{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background: black;
+  font-family: 'counter';
+  color: red;
+  text-align: center;
+  width: 350px;
+  height: 80%;
+  font-size: 300px;
+  border-radius: 10px;
+}
