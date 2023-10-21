@@ -11,7 +11,7 @@
     <h1><i>KABADDI SCOREBOARD</i></h1>
     <div class="container">
       <div>
-        <h3>KMEA </h3>
+        <h3>HOME </h3>
         <h1 id="count1">0</h1>
         <div id="score1">
           <button class="one"onclick="one()">+1</button>
@@ -20,8 +20,20 @@
           <button class="minus" onclick="minus()">-1</button>
         </div>
       </div>
+
+      <div id="timer--container">
+        <div class="clock">
+          <h2>Timer</h2>
+          <h2 id="timer--output">00:30</h2>
+        </div>
+
+        <button id="start-button">Start</button>
+        <button id="reset-button">Reset</button>
+        <button id="do-button" style="height:75px; width:300px">Do or Die</button>
+      </div>
+
       <div>
-        <h3>TEAM-B</h3>
+        <h3>AWAY</h3>
         <h1 id="count2">0</h1>
         <div id="score2">
           <button class="one" onclick="one1()">+1</button>
@@ -33,6 +45,9 @@
     </div>
     <div class="newge">
       <button class="game-btn" onclick="game()">New Game</button>
+    </div>
+    <div id="footer">
+      <p >Developed by <a href="https://tzetsolutions.com" style="color: bisque; text-decoration: none;">TZETIT SOLUTIONS PVT LTD</a></p>
     </div>
     <script src="index.js" charset="utf-8"></script>
   </body>
